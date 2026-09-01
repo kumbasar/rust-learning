@@ -1,0 +1,25 @@
+fn main() {
+    println!("The smallest i8: {} The biggest i8: {}", i8::MIN, i8::MAX);
+    println!("The smallest u8: {} The biggest u8: {}", u8::MIN, u8::MAX);
+    println!("The smallest i16: {} The biggest i16: {}", i16::MIN, i16::MAX);
+    println!("The smallest u16: {} and the biggest u16: {}", u16::MIN, u16::MAX);
+    println!("The smallest i32: {} The biggest i32: {}", i32::MIN, i32::MAX);
+    println!("The smallest u32: {} The biggest u32: {}", u32::MIN, u32::MAX);
+    println!("The smallest i64: {} The biggest i64: {}", i64::MIN, i64::MAX);
+    println!("The smallest u64: {} The biggest u64: {}", u64::MIN, u64::MAX);
+    println!("The smallest i128: {} The biggest i128: {}", i128::MIN, i128::MAX);
+    println!("The smallest u128: {} The biggest u128: {}", u128::MIN, u128::MAX);
+}
+
+/*
+The smallest i8: -128 The biggest i8: 127
+The smallest u8: 0 The biggest u8: 255
+The smallest i16: -32768 The biggest i16: 32767
+The smallest u16: 0 and the biggest u16: 65535
+The smallest i32: -2147483648 The biggest i32: 2147483647
+The smallest u32: 0 The biggest u32: 4294967295
+The smallest i64: -9223372036854775808 The biggest i64: 9223372036854775807
+The smallest u64: 0 The biggest u64: 18446744073709551615
+The smallest i128: -170141183460469231731687303715884105728 The biggest i128: 170141183460469231731687303715884105727
+The smallest u128: 0 The biggest u128: 340282366920938463463374607431768211455
+ */
